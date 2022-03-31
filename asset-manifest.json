@@ -1,15 +1,15 @@
 {
-  "main.css": "/react-gh-pages/static/css/main.de251eb0.chunk.css",
-  "main.js": "/react-gh-pages/static/js/main.96b4f3d5.chunk.js",
-  "main.js.map": "/react-gh-pages/static/js/main.96b4f3d5.chunk.js.map",
-  "static/js/1.6d1c687f.chunk.js": "/react-gh-pages/static/js/1.6d1c687f.chunk.js",
-  "static/js/1.6d1c687f.chunk.js.map": "/react-gh-pages/static/js/1.6d1c687f.chunk.js.map",
-  "static/js/2.b9f50790.chunk.js": "/react-gh-pages/static/js/2.b9f50790.chunk.js",
-  "static/js/2.b9f50790.chunk.js.map": "/react-gh-pages/static/js/2.b9f50790.chunk.js.map",
-  "runtime~main.js": "/react-gh-pages/static/js/runtime~main.88a9303d.js",
-  "runtime~main.js.map": "/react-gh-pages/static/js/runtime~main.88a9303d.js.map",
-  "static/css/main.de251eb0.chunk.css.map": "/react-gh-pages/static/css/main.de251eb0.chunk.css.map",
-  "index.html": "/react-gh-pages/index.html",
-  "precache-manifest.1026f970c589f183fee3f35bc869d068.js": "/react-gh-pages/precache-manifest.1026f970c589f183fee3f35bc869d068.js",
-  "service-worker.js": "/react-gh-pages/service-worker.js"
+  "main.css": "/Resonate_technical_test/static/css/main.de251eb0.chunk.css",
+  "main.js": "/Resonate_technical_test/static/js/main.96b4f3d5.chunk.js",
+  "main.js.map": "/Resonate_technical_test/static/js/main.96b4f3d5.chunk.js.map",
+  "static/js/1.6d1c687f.chunk.js": "/Resonate_technical_test/static/js/1.6d1c687f.chunk.js",
+  "static/js/1.6d1c687f.chunk.js.map": "/Resonate_technical_test/static/js/1.6d1c687f.chunk.js.map",
+  "static/js/2.b9f50790.chunk.js": "/Resonate_technical_test/static/js/2.b9f50790.chunk.js",
+  "static/js/2.b9f50790.chunk.js.map": "/Resonate_technical_test/static/js/2.b9f50790.chunk.js.map",
+  "runtime~main.js": "/Resonate_technical_test/static/js/runtime~main.0b252e4c.js",
+  "runtime~main.js.map": "/Resonate_technical_test/static/js/runtime~main.0b252e4c.js.map",
+  "static/css/main.de251eb0.chunk.css.map": "/Resonate_technical_test/static/css/main.de251eb0.chunk.css.map",
+  "index.html": "/Resonate_technical_test/index.html",
+  "precache-manifest.6512dd6f5c872f10033587a5429277b6.js": "/Resonate_technical_test/precache-manifest.6512dd6f5c872f10033587a5429277b6.js",
+  "service-worker.js": "/Resonate_technical_test/service-worker.js"
 }
