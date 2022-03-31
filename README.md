@@ -7,7 +7,9 @@ Some improvement I woudld make in the future:
 2 - Add CRUD functionality.
 3 - Clean up the code structure so it is more maintainable.
 
-To run this application:
+The app is deployed at: https://duydhk2000.github.io/Resonate_technical_test/
+
+Or to run this application:
 1/ Clone the repository / download the source code.
 2/ Go into the contacts folder in terminal.
 3/ npm install @mui/material.
