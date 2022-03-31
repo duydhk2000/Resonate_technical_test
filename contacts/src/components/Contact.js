@@ -4,7 +4,7 @@ import {Container, Grid, Card, CardMedia, CardContent, Typography, CardActions, 
 export default function Contact(contactList) {
     return(
         <Container sx={{ py: 8 }} maxWidth="md">
-            <Grid container spacing={4}>
+            <Grid container spacing={1}>
             {
                 <Grid item key={contactList.contact.id} xs={24} sm={12} md={8}>
                     <Card
