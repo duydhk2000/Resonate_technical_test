@@ -1,18 +1,19 @@
 import * as React from 'react';
 import {Container, Grid, Card, CardMedia, CardContent, Typography, CardActions, Button} from '@mui/material';
 
-export default function Contact(contact) {
+export default function Contact(contactList) {
+    console.log(contactList.contact);
     return(
     <Container sx={{ py: 8 }} maxWidth="md">
             {/* End hero unit */}
             <Grid container spacing={4}>
             {
-                <Grid item key={contact} xs={12} sm={6} md={4}>
+                <Grid item key={contactList.contact.id} xs={12} sm={6} md={4}>
                     <Card
                         sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
                     >
                         <Typography gutterBottom variant="h5" component="h2">
-                            Contact Name
+                            {contactList.contact.name}
                         </Typography>
                         <CardMedia
                         component="img"
