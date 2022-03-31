@@ -1,15 +1,6 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
-import {Container, Grid, Card, CardMedia, CardContent, Typography, CardActions, Button} from '@mui/material';
 import Contact from './Contact';
-import { styled } from '@mui/material/styles';
-import Paper from '@mui/material/Paper';
-
-const Item = styled(Paper)(({ theme }) => ({
-    padding: theme.spacing(1),
-    textAlign: 'center',
-    color: theme.palette.text.secondary,
-  }));
 
 function Gallery() {
     const [selected, setSelected] = useState(null)
