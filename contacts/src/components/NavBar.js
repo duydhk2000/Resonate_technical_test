@@ -6,6 +6,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 
+
 export default function NavBar() {
   return (
     <Box sx={{ flexGrow: 1}}>
@@ -20,8 +21,8 @@ export default function NavBar() {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h6" color="inherit" noWrap>
-            Contacts Album
+            <Typography variant="h6" color="inherit" noWrap>
+              Contacts Album
             </Typography>
         </Toolbar>
       </AppBar>
