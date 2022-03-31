@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Resonate_technical_test/precache-manifest.6512dd6f5c872f10033587a5429277b6.js"
+  "/Resonate_technical_test/precache-manifest.1e430460d47e5f8e92ee0c2885c29ca7.js"
 );
 
 workbox.clientsClaim();
