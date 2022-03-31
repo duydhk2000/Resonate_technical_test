@@ -1,7 +1,15 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
-//import {Container, Grid, Card, CardMedia, CardContent, Typography, CardActions, Button} from '@mui/material';
+import {Container, Grid, Card, CardMedia, CardContent, Typography, CardActions, Button} from '@mui/material';
 import Contact from './Contact';
+import { styled } from '@mui/material/styles';
+import Paper from '@mui/material/Paper';
+
+const Item = styled(Paper)(({ theme }) => ({
+    padding: theme.spacing(1),
+    textAlign: 'center',
+    color: theme.palette.text.secondary,
+  }));
 
 function Gallery() {
     const [selected, setSelected] = useState(null)
@@ -26,8 +34,7 @@ function Gallery() {
 
     return (
         contacts ? 
-        <div style = {{width:"100%", height:"100%", overflowY: "auto", display:"flex", flexDirection:"row", alignItems:"center", justifyContent:"space-between"}}>
-            <div className = "list">
+            <div>
                 {
                     contacts.filter(
                         con => searchQuery ? 
@@ -43,14 +50,14 @@ function Gallery() {
                             if (c.name.charAt(0).toLowerCase() !== currIndex) {
                                 currIndex = c.name.charAt(0).toLowerCase();
                                 return (
-                                    <div key = {i} style = {{width:"90%", cursor:"pointer", paddingRight:"1em"}} onClick = {(e)=>{e.preventDefault(); setSelected(c)}}>
+                                    <div key = {i}>
                                         <h1 style = {{width:"100%", textAlign:"left"}}>{c.name.charAt(0)}</h1>
                                         <Contact contact ={c} selected = {selected === c}/>
                                     </div>
                                 )
                             } else {
                                 return(
-                                    <div key = {i} style = {{width:"90%", cursor:"pointer", paddingRight:"1em"}} onClick = {(e)=>{e.preventDefault(); setSelected(c)}}>
+                                    <div key = {i}>
                                         <Contact contact ={c} selected = {selected === c}/> 
                                     </div>
                                 )
@@ -58,7 +65,6 @@ function Gallery() {
                     })
                 }
             </div>
-        </div>
         :
         <div>
             Loading:
